@@ -1,2 +1,2 @@
-# FamilyTree
+# FamilyTreeProject
 TA family tree algorithm
