@@ -1,10 +1,31 @@
 # FamilyTreeProject
 ## TA family tree algorithm
-1. Choose 2 People
-2. Find Top Ancestor
-3. Check for children, if so go down to them.
-4. Continue to go down until you find the person or you cant anymore
-5. go back to previous line and choose another on the line
-6. repeat steps 3-5 until you find both targets
-7. once both are found, got to previous lines to find connection.
-8. if on same, possible siblings or cousin on nature of who is the ancestor.
+1. Choose 2 People in the tree
+2. Find Top Ancestor in the tree
+3. Check for children or a partner to see if they are one of the chosen
+4. once you find one of the children or a partner of the top ancestor go down to see if they have children or partners, if not choose another person on that same line. 
+5. if you find that they hvae a child, start to go down to their children
+6. go down the line of their children and dont stop until there is no more children
+7. if only 1 was found or none were found go back to previous line and choose another person on the line
+8. repeat steps 3-5 until you find both targets
+9. once both are found, got to previous lines to the find the closest connection. 
+10. go to a person that connects them.
+11. if on same, possible siblings or cousin on nature of who is the ancestor.
+12. find connection towards closest connecting ancestor.
+13. if 1 away parent, if 2 away grandparent, if 3 away greatgrandparent, each add 1 = great on top of grandparent
+14. next find seperate closest connection to each found person
+15. (line 13), find seperate connection between next closest connection
+
+
+
+
+
+a = generation in tree
+b = generation in tree
+
+parent of a
+parent of b
+
+same gen = sibling. 1st cousins
+if parent a and b = same parent = siblings
+if parent are in same gen = uncle/aunt or parent to a and/or b
