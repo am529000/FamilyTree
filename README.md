@@ -20,12 +20,16 @@
 
 
 
-a = generation in tree
-b = generation in tree
+A = generation in tree (ex. 5, 4, 3, 2...)
+B = generation in tree (ex. 5, 4, 3, 2...)
 
-parent of a
-parent of b
+parent of A (name)
+parent of B (name)
 
 same gen = sibling. 1st cousins
-if parent a and b = same parent = siblings
-if parent are in same gen = uncle/aunt or parent to a and/or b
+if parent A and B = same parent = siblings
+if parent A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
+same gen but not same parent = 1st cousins
+each gen is a letter (ex. a, b, c, d, e...)
+same letter = same gen
+an equation for each possible combination to make it equal to an amount that determines connection
