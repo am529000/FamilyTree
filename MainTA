@@ -1,1 +1,9 @@
-
+import java.util.*; 
+ 
+public class Main { 
+      public static void main(String args[])   { 
+        // ArrayList.add method
+        List<String> str_list = new ArrayList<String>(); 
+        str_list.add(); 
+        str_list.add(); 
+        System.out.println("People: " + str_list.toString()); 
