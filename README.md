@@ -26,9 +26,20 @@ B = generation in tree (ex. 5, 4, 3, 2...)
 parent of A (name)
 parent of B (name)
 
+implement a way where it starts at the top ancestor (1st generation)
+implement a list of all people and their generation
+asks if they are a chosen one, if not then continue
+goes down to next generation
+starts with the first person i the generation line, asks if they are a chosen one, if not continue through that generation
+does through and asks everyone in that generation
+goes down to next generation and continues till both are found
+
+once both are found
+
+
 same gen = sibling. 1st cousins
-if parent A and B = same parent = siblings
-if parent A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
+if parent of A and B = same parent = siblings
+if parent of A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
 same gen but not same parent = 1st cousins
 each gen is a letter (ex. a, b, c, d, e...)
 same letter = same gen
