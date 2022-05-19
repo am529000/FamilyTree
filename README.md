@@ -18,23 +18,60 @@
 
 
 
-
-
 A = generation in tree (ex. 5, 4, 3, 2...)
 B = generation in tree (ex. 5, 4, 3, 2...)
 
 parent of A (name)
 parent of B (name)
 
+List:
+Name(1a):
+Name(2ab):
+Name(2ab):
+Name(3abc):
+
+List:
+Elizabeth(1a)
+Marj(2aa)
+Rosanne(2ab)
+Ruthanne(2ac)
+Donnie(2ad)
+Patrica(2ae)
+Kim(3aaa)
+Monica(3aab)
+Martin(3aac)
+Gabe(3aad)
+John(3aae)
+Ben(3aaf)
+Jerome(3aag)
+John G(4aaaa)
+Jamie(4aaab)
+Julia(4aaac)
+Phil(4aaba)
+Alley(4aabb)
+Anna(4aabc)
+Steven(4aabd)
+
+(each nextgeneration goes +1, and takes their old letters (aaa)
+(each letter = a connection to the previous person above in the previous generation)
+(each number = their generation number)
+
 implement a way where it starts at the top ancestor (1st generation)
 implement a list of all people and their generation
 asks if they are a chosen one, if not then continue
 goes down to next generation
-starts with the first person i the generation line, asks if they are a chosen one, if not continue through that generation
+starts with the first person in the generation line, asks if they are a chosen one, if not continue through that generation
 does through and asks everyone in that generation
 goes down to next generation and continues till both are found
 
 once both are found
+start to find connection
+for both chosen people, check for parent
+if chosens parent the same = sibling, 
+if parents on same generation = uncle/aunt/parent
+if parents are on seperate generation
+
+
 
 
 same gen = sibling. 1st cousins
