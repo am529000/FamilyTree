@@ -55,18 +55,7 @@ does through and asks everyone in that generation
 goes down to next generation and continues till both are found
 once both are found
 find closest letter to find common ancestor, print(Ex. ComAnc: Marj)
-
-
-Make an equation for an ancestry check for the connecting person
-
-
-same gen = sibling. 1st cousins
-if parent of A and B = same parent = siblings
-if parent of A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
-same gen but not same parent = 1st cousins
-each gen is a letter (ex. a, b, c, d, e...)
-same letter = same gen
-an equation for each possible combination to make it equal to an amount that determines connection
+count number of letters more than the common ancestor (Ex. Marj = aa, Jamie =aaab, so aaab - aa = ab or 2)
 
 
 
