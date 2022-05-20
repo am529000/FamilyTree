@@ -1,5 +1,76 @@
 # FamilyTreeProject
 ## TA family tree algorithm
+## NEW
+A = generation in tree (ex. 5, 4, 3, 2...)
+B = generation in tree (ex. 5, 4, 3, 2...)
+
+parent of A (name code, ex. aa)
+parent of B (name code, ex. aad)
+
+List:
+Name(a):
+Name(ab):
+Name(ab):
+Name(abc):
+
+List:
+Elizabeth(a)
+Marj(aa)
+Rosanne(ab)
+Ruthanne(ac)
+Donnie(ad)
+Patrica(ae)
+Kim(aaa)
+Monica(aab)
+Martin(aac)
+Gabe(aad)
+John(aae)
+Ben(aaf)
+Jerome(aag)
+John G(aaaa)
+Jamie(aaab)
+Julia(aaac)
+Phil(aaba)
+Alley(aabb)
+Anna(aabc)
+Steven(aabd)
+Ellane(aada)
+Jake(aadb)
+Veera(aaga)
+Precila(aagb)
+Clarence(aagc)
+Lincoln(aabaa)
+Mo(aadaa)
+Alex(aabaaa)
+
+(each nextgeneration goes +1, and takes their old letters (aaa)
+(each letter = a connection to the previous person above in the previous generation)
+(each number = their generation number)
+
+
+list of all people and their generation
+asks if they are a chosen one, if not then continue
+starts with the first person in the generation line, asks if they are a chosen one, if not continue through that generation
+does through and asks everyone in that generation
+goes down to next generation and continues till both are found
+once both are found
+find closest letter to find common ancestor, print(Ex. ComAnc: Marj)
+
+
+Make an equation for an ancestry check for the connecting person
+
+
+same gen = sibling. 1st cousins
+if parent of A and B = same parent = siblings
+if parent of A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
+same gen but not same parent = 1st cousins
+each gen is a letter (ex. a, b, c, d, e...)
+same letter = same gen
+an equation for each possible combination to make it equal to an amount that determines connection
+
+
+
+## OLD
 1. Choose 2 People in the tree
 2. Find Top Ancestor in the tree
 3. Check for children or a partner to see if they are one of the chosen
@@ -15,69 +86,3 @@
 13. if 1 away parent, if 2 away grandparent, if 3 away greatgrandparent, each add 1 = great on top of grandparent
 14. next find seperate closest connection to each found person
 15. (line 13), find seperate connection between next closest connection
-
-
-
-A = generation in tree (ex. 5, 4, 3, 2...)
-B = generation in tree (ex. 5, 4, 3, 2...)
-
-parent of A (name)
-parent of B (name)
-
-List:
-Name(1a):
-Name(2ab):
-Name(2ab):
-Name(3abc):
-
-List:
-Elizabeth(1a)
-Marj(2aa)
-Rosanne(2ab)
-Ruthanne(2ac)
-Donnie(2ad)
-Patrica(2ae)
-Kim(3aaa)
-Monica(3aab)
-Martin(3aac)
-Gabe(3aad)
-John(3aae)
-Ben(3aaf)
-Jerome(3aag)
-John G(4aaaa)
-Jamie(4aaab)
-Julia(4aaac)
-Phil(4aaba)
-Alley(4aabb)
-Anna(4aabc)
-Steven(4aabd)
-
-(each nextgeneration goes +1, and takes their old letters (aaa)
-(each letter = a connection to the previous person above in the previous generation)
-(each number = their generation number)
-
-implement a way where it starts at the top ancestor (1st generation)
-implement a list of all people and their generation
-asks if they are a chosen one, if not then continue
-goes down to next generation
-starts with the first person in the generation line, asks if they are a chosen one, if not continue through that generation
-does through and asks everyone in that generation
-goes down to next generation and continues till both are found
-
-once both are found
-start to find connection
-for both chosen people, check for parent
-if chosens parent the same = sibling, 
-if parents on same generation = uncle/aunt/parent
-if parents are on seperate generation
-
-
-
-
-same gen = sibling. 1st cousins
-if parent of A and B = same parent = siblings
-if parent of A and B = same gen but not same parent = uncle/aunt =  and/or a parent of A/B
-same gen but not same parent = 1st cousins
-each gen is a letter (ex. a, b, c, d, e...)
-same letter = same gen
-an equation for each possible combination to make it equal to an amount that determines connection
